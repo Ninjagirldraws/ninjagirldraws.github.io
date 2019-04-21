@@ -1,0 +1,275 @@
+
+* {
+	box-sizing:	border-box;
+}
+
+body {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	background-color: #FCCBDB;
+}
+
+div {
+	box-sizing: border-box;
+	float: left;
+
+	
+}
+* {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+.parent {
+	margin-bottom: 10px;
+	border: 1px solid #ffffff;
+	padding: 10px;
+	width: 100%;
+	
+}
+
+.parent > div {
+	border: none;
+	padding: 5px;
+}
+#header {
+	background-color: #ffffff;
+
+
+	
+	
+
+}
+
+
+
+
+#logo {
+	
+	margin-bottom: 10px;
+	width: 200px;
+	font-weight: bold;
+	word-spacing: 10px;
+	letter-spacing: 5px;
+}
+
+p {
+	
+	
+	text-shadow: 2px 2px 4px #000000;
+	line-height: 1.6 ;
+	font-weight: 300;
+	font-size:30px;
+	color: #ffffff;
+	
+	
+}
+
+
+#menu {
+	float: right;
+	box-sizing: content-box;
+	font-weight: 700;
+	background-color: #ffffff;
+	
+
+	
+}
+
+
+
+
+#menu, #menu ul {
+	
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	
+}
+
+#menu {
+	
+	
+	float: right;
+	
+	
+	
+}
+li a:hover{
+    background-color: #F0729A;
+	
+}
+
+
+#menu > li {
+	float: left;
+	
+	position: relative;
+}
+
+#menu > li:last-child {
+	
+}
+
+
+#menu > li ul {
+	position: absolute;
+	left: -1px;
+	top: 27px;
+	width: 150px;
+	display: none;
+	padding-top: 10px;
+}
+
+
+#menu > li:hover ul {
+	display: block;
+	background-color: #ffffff;
+	width: 111px;
+	height: 80px;
+	
+  
+	
+}
+	
+	
+	
+	
+	
+	
+}
+#menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+#menu > li ul > li {
+	
+	
+	
+}
+
+#menu > li ul > li:last-child {
+	
+}
+
+#menu a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+
+#main-content {
+	background-color: #ffffff;
+	background-image: url('../images/galaxy.jpg');
+	width: 1349px;
+	height: 620px;
+	display: inline-block;
+	display: inline-block;
+    margin-top: -10px;
+	border: none;
+
+	
+
+}
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+#main-content p:last-child {
+	color:	#ffffff;
+	float: right;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+#projects {
+	background-color: #ffffff;
+	display: inline-block;
+    margin-top: -9px;
+}
+#FOOTER {
+	background-color: #ffffff;
+}
+#content {
+	width: 20px;
+	height: 200px;
+	
+}
+
+
+
+input[name='nume'] {
+	width: 170px;
+	display: inline-block;
+}
+
+	
+
+#copyright {
+	
+	color:	#b5b8bc;
+	float: right;
+	text-align: center;
+	width: 100%;
+	
+	
+	
+	
+}
+
+#FOOTER {
+	
+  
+  margin: 0;
+  padding: 3;
+  margin-top: -10px;
+  
+  
+
+
+}
+#FOOTER .text {
+	text-indent: 15px;
+}
+h1 {
+text-indent: 10px;
+}
+@media (min-width: 47
+6px) and (max-width: 700px) {
+	
+	#sidebar2 {
+		display: none;
+	}	
+	
+	#sidebar1 {
+		width: 30%;
+	}
+	
+	#content {
+		width: 68%;
+		float: right;
+		margin-left: 0;
+	}
+	
+}
+
+
+
