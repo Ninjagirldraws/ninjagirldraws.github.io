@@ -36,6 +36,7 @@ div {
 	width: 100%;
 	letter-spacing: .02em;
 }
+
 .parent > div {
 	border: none;
 	padding: 5px;
